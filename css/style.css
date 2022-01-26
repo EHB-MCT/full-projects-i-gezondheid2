@@ -114,6 +114,7 @@
             margin: auto;
             width: 85%;
             margin-left: 7%;
+            border-radius: 5px;
             opacity: 0.75;
         }
         
@@ -149,6 +150,7 @@
             margin: auto;
             width: 80%;
             padding: 30px;
+            border-radius: 45px;
         }
         
         .watisipo h1 {
@@ -211,10 +213,4 @@
             display: block;
             margin: auto;
             width: 75%;
-        }
-        
-        .resize {
-            width: 600px;
-            border-radius: 22% 35% 38% 18% / 17% 27% 25% 25%;
-            height: auto;
         }

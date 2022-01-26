@@ -35,7 +35,8 @@
         
         .navigation img {
             float: left;
-            width: 10%
+            width: 6%;
+            margin-top: 24px;
         }
         
         .navigation ul {
@@ -70,29 +71,84 @@
             display: grid;
             grid-template-columns: 1fr 0.7fr;
             font-family: 'Nunito', sans-serif;
-            font-weight: 900;
+            font-weight: 700;
         }
         
         .frontpage img {
-            width: 95%;
+            display: block;
+            margin: auto;
+            width: 91%;
+            margin-top: 6%;
+            margin-bottom: 10%;
+        }
+        
+        .frontpage p {
+            font-size: 16px;
+            margin-top: 3%;
+            font-weight: 100;
         }
         
         .frontpage>div:nth-child(1) {
             font-size: 70px;
-            margin-left: 21%;
-            margin-top: 21%;
+            margin-left: 15%;
+            margin-top: 12%;
         }
         
         .frontpage-small {
-            font-size: 45px;
-            font-weight: 700;
+            font-size: 42px;
+            font-weight: 500;
+        }
+        
+        .frontpage-foto {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 5%;
+            margin-bottom: 5%;
+        }
+        
+        .frontpage-foto img {
+            float: left;
+            height: 85%;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+            width: 85%;
+            margin-left: 7%;
+            opacity: 0.75;
+        }
+        
+        .frontpage-foto img:hover {
+            opacity: 1;
+            transition: opacity .5s ease-out;
+            -moz-transition: opacity .5s ease-out;
+            -webkit-transition: opacity .5s ease-out;
+            -o-transition: opacity .5s ease-out;
+            box-shadow: 6px 6px 10px grey;
+        }
+        
+        .frontpage-foto h2 {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.4em;
+            margin-left: 7%;
+            padding: 1%;
         }
         
         .watisipo {
-            margin: auto;
-            width: 50%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: left;
+        }
+        
+        .watisipo>div:nth-child(1) {
             padding: 10px;
-            text-align: center;
+            margin-left: 15%;
+        }
+        
+        .watisipo>div img {
+            display: block;
+            margin: auto;
+            width: 80%;
+            padding: 30px;
         }
         
         .watisipo h1 {
@@ -107,46 +163,58 @@
             font-weight: 400;
         }
         
-        .background-watisipo {
-            background-image: url("../images/verpleegkunde.png");
-            background-position: center;
-            height: 840px;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
         .watisipo article h1 {
-            color: black;
+            color: #003399;
             margin-top: 3%;
             font-size: 40px;
         }
         
         .watisipo ul li {
             font-family: 'Nunito', sans-serif;
-            font-size: 25px;
+            font-size: 21px;
             font-weight: 200;
-            margin: 20px;
+            margin-top: 15px;
         }
         
-        .background-wiezijnwe {
-            background-image: url("../images/studenten.png");
-            background-position: center;
-            height: 840px;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .schema {
-            background-color: white;
-            width: 80%;
+        .wiezijnwe {
+            text-align: center;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
+            margin: auto;
+            width: 60%;
         }
         
-        .schema img {
+        .wiezijnwe h1 {
+            font-size: 67px;
+            font-weight: 700;
+            color: #e30713;
+        }
+        
+        .wiezijnwe p {
+            font-size: 21px;
+            color: black;
+            font-weight: 400;
+        }
+        
+        .wiezijnwe div img {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
+            margin: auto;
+            width: 100%;
+            margin-top: 10%;
+        }
+        
+        .opleidingen {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .opleidingen img {
+            display: block;
+            margin: auto;
+            width: 75%;
+        }
+        
+        .resize {
+            width: 600px;
+            height: auto;
+            border-radius: 22% 35% 38% 18% / 17% 27% 25% 25%;
         }

@@ -215,6 +215,6 @@
         
         .resize {
             width: 600px;
-            height: auto;
             border-radius: 22% 35% 38% 18% / 17% 27% 25% 25%;
+            height: auto;
         }

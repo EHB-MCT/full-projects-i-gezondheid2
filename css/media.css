@@ -1,0 +1,26 @@
+            @media only screen and (max-width:576px) {
+                nav a:nth-child(2) {
+                    display: block;
+                    margin: 20px 20px 20px;
+                    font-size: 70px;
+                    cursor: pointer;
+                    text-align: right;
+                }
+                nav ul.active {
+                    display: none;
+                }
+                .navigation li {
+                    display: inline-block;
+                    margin: 0;
+                }
+                nav ul li {
+                    width: 90%;
+                    text-align: right;
+                    margin-top: 20px;
+                }
+                .navigation img {
+                    width: 18%;
+                }
+            }
+            
+            @media only screen and (min-width:768px) {}

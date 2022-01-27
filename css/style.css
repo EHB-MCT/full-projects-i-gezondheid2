@@ -10,10 +10,13 @@
             font-family: 'Nunito', sans-serif;
         }
         
-        #navigation-container {
-            width: 1200px;
-            margin: 0 auto;
-            height: 70px;
+        nav>a:nth-child(2) {
+            display: none;
+        }
+        
+        nav ul li {
+            text-align: center;
+            margin-top: 30px;
         }
         
         .active-nav {
@@ -22,6 +25,12 @@
         
         .navigation a:hover {
             color: #003399;
+        }
+        
+        .container {
+            max-width: 100%;
+            width: 100%;
+            margin: auto;
         }
         
         .navigation {
@@ -34,11 +43,12 @@
             float: left;
             width: 6%;
             margin-top: 26px;
+            margin-left: 8%;
         }
         
         .navigation ul {
             padding: 0px;
-            margin: 0px;
+            margin-right: 10%;
             margin-top: 40px;
             text-align: center;
             display: inline-block;
@@ -218,7 +228,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             margin-bottom: 5%;
-            grid-gap: 3%;
+            grid-gap: 1%;
             margin-top: 5%;
         }
         

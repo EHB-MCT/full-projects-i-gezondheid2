@@ -3,21 +3,30 @@
 <head>
     <link href="../css/reset.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/media.css" rel="stylesheet" />
+    <script>
+        function toon() {
+            var hamb = document.getElementById("entiteit");
+            hamb.classList.toggle("active")
+        }
+    </script>
 </head>
 
-<body>
+<body class="container">
     <header>
         <div class="navigation">
-            <div id="navigation-container">
+            <nav>
                 <a href="../index.html"><img src="../images/pnglogo.png"></a>
-                <ul>
+                <a onclick="toon();">&#9776;</a>
+
+                <ul id="entiteit" class="active">
                     <li><a href="watisipo.html">Wat is IPO?</a></li>
                     <li><a href="wiezijnwe.html">Wie zijn we?</a></li>
                     <li><a class="active-nav" href="#">Leerlijn IPO</a></li>
                     <li><a href="contact.html">Contact</a></li>
 
                 </ul>
-            </div>
+            </nav>
         </div>
 
     </header>

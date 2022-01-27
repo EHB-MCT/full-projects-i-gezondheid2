@@ -2,10 +2,7 @@
         body {
             margin: 0;
             padding: 0;
-        }
-        
-        .logo {
-            float: left;
+            overflow-y: scroll;
         }
         
         h1,
@@ -14,7 +11,7 @@
         }
         
         #navigation-container {
-            width: 1235px;
+            width: 1375px;
             margin: 0 auto;
             height: 70px;
         }
@@ -179,19 +176,21 @@
         }
         
         .wiezijnwe {
-            text-align: center;
             display: block;
             margin: auto;
             width: 60%;
         }
         
         .wiezijnwe h1 {
+            text-align: center;
             font-size: 63px;
             font-weight: 500;
             color: #e30713;
+            margin-bottom: 10px;
         }
         
         .wiezijnwe p {
+            text-align: left;
             font-size: 16px;
             color: black;
             font-weight: 400;
@@ -219,8 +218,25 @@
             grid-template-columns: 1fr 1fr;
         }
         
+        .logo {
+            height: 100%;
+            object-fit: cover;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            width: 85%;
+            margin-bottom: 15%;
+        }
+        
         .opleidingen img {
             display: block;
             margin: auto;
             width: 75%;
+        }
+        
+        .opleidingen h2 {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.4em;
+            margin-left: 13%;
+            padding: 1%;
         }

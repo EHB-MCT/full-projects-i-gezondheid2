@@ -17,8 +17,8 @@
                 <a onclick="toon();">&#9776;</a>
                 <ul id="entiteit" class="active">
                     <li><a href="#watisipo">Wat is IPO?</a></li>
-                    <li><a href="pages/wiezijnwe.html">Wie zijn we?</a></li>
-                    <li><a href="pages/leerlijnIPO.html">Leerlijn IPO</a></li>
+                    <li><a href="#deel2">Wie zijn we?</a></li>
+                    <li><a href="#deel3">Leerlijn IPO</a></li>
                     <li><a href="pages/contact.html">Contact</a></li>
 
                 </ul>
@@ -87,13 +87,63 @@
             </article>
         </div>
 
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+
+                <img src="images/verpleegkunde.png" style="width:100%">
+                <div class="text">Verpleegkunde</div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="images/vroedkunde.jpg" style="width:100%">
+                <div class="text">Vroedkunde</div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="images/voedings.jpg" style="width:100%">
+                <div class="text">Voedings-Dieetkunde</div>
+            </div>
+
+        </div> <br>
+
+        <div style="display: none;">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        </script>
 
 
     </section>
 
     <img class="fotowiezijnwe" src="../images/zorg.jpg" alt="">
 
-    <section class="wiezijnwe">
+    <section id="deel2" class="wiezijnwe">
         <h1>Wie zijn wij?</h1>
         <p>De InterProfessionele Onderwijs (IPO) werkgroep van de Universitaire Associatie Brussel betreft een
             samenwerkingsverband tussen verschillende zorgopleidingen van de Vrije Universiteit Brussel en de
@@ -172,7 +222,7 @@
 
     </div>
     <h1 class="title">Leerlijn</h1>
-    <section class="backgroundleerlijn">
+    <section id="deel3" class="backgroundleerlijn">
         <div>
             <p> - Studenten maken kennis met disiplines <br> - Aan de hand van lessen en projecten</p>
             <h2>Projecten binnen fase 1: </h2>

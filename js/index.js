@@ -1,4 +1,4 @@
 function toon() {
     var hamb = document.getElementById("entiteit");
-    hamb.classList.toggle("active")
+    hamb.classList.toggle("active");
 }

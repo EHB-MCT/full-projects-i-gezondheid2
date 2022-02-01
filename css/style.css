@@ -128,11 +128,11 @@
         }
         
         .frontpage-foto div:nth-child(1) img {
-            margin-left: 25%;
+            margin-left: 15%;
         }
         
         .frontpage-foto div:nth-child(3) img {
-            margin-left: 25%;
+            margin-left: 15%;
         }
         
         .frontpage-foto img {
@@ -141,7 +141,7 @@
             object-fit: cover;
             display: block;
             margin: 0 auto;
-            width: 70%;
+            width: 80%;
             border-radius: 5px;
         }
         
@@ -153,6 +153,7 @@
         }
         
         .watisipo {
+            color: black;
             display: grid;
             grid-template-columns: 1fr 1fr;
             text-align: left;
@@ -181,7 +182,6 @@
         
         .watisipo p {
             font-size: 16px;
-            color: black;
             font-weight: 100;
         }
         
@@ -338,8 +338,19 @@
         
         .logo {
             object-fit: cover;
-            margin: auto;
-            width: 50%;
+            margin: 35px;
+        }
+        
+        .logo h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #003399;
+            font-weight: 500;
+        }
+        
+        .logo div {
+            text-align: center;
+            margin: 15px;
         }
         
         .backgroundleerlijn {

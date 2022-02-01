@@ -1,29 +1,105 @@
-            @media only screen and (max-width:576px) {
-                nav a:nth-child(2) {
-                    display: block;
-                    margin: 20px 20px 20px;
-                    font-size: 70px;
-                    cursor: pointer;
-                    text-align: right;
-                }
-                nav ul.active {
-                    display: none;
-                }
-                .navigation li {
-                    display: inline-block;
-                    margin: 0;
-                }
-                nav ul li {
-                    width: 90%;
-                    text-align: right;
-                    margin-top: 20px;
-                }
-                .navigation img {
-                    width: 18%;
-                }
-                .navigation {
-                    margin-bottom: 42%;
-                }
-            }
-            
-            @media only screen and (min-width:768px) {}
+@media only screen and (min-width:768px) {}
+
+@media only screen and (max-width:576px) {
+    nav a:nth-child(2) {
+        display: block;
+        margin: 20px 20px 20px;
+        font-size: 70px;
+        cursor: pointer;
+        text-align: right;
+    }
+    nav ul.active {
+        display: none;
+    }
+    .navigation li {
+        display: inline-block;
+        margin: 0;
+    }
+    nav ul li {
+        width: 90%;
+        text-align: right;
+        margin-top: 20px;
+    }
+    .navigation img {
+        width: 18%;
+    }
+    .navigation {
+        margin-bottom: 42%;
+    }
+    .frontpage {
+        grid-template-columns: 1fr;
+    }
+    .frontpage>div:nth-child(1) {
+        font-size: 55px;
+    }
+    .frontpage-small {
+        font-size: 25px;
+    }
+    .frontpage p {
+        font-size: 13px;
+    }
+    .frontpage img {
+        display: block;
+        width: 73%;
+        margin: 0 auto;
+    }
+    .frontpage-foto {
+        grid-template-columns: 1fr;
+    }
+    .frontpage-foto div:nth-child(1) img {
+        margin-left: 0%;
+    }
+    .frontpage-foto div:nth-child(3) img {
+        margin-left: 0%;
+    }
+    .frontpage-foto img {
+        width: 100%;
+        grid-gap: 0%;
+        margin-bottom: 0%;
+    }
+    .watisipo {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .watisipo h1 {
+        font-size: 30px;
+    }
+    .watisipo article h1 {
+        font-size: 30px;
+    }
+    .watisipo p {
+        font-size: 13px;
+    }
+    .watisipo ul li {
+        font-size: 13px;
+    }
+    .text {
+        font-size: 13px;
+        width: 70%;
+    }
+    .watisipo>div img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .wiezijnwe h1 {
+        font-size: 30px;
+    }
+    .wiezijnwe p {
+        font-size: 13px;
+        width: 100%;
+    }
+    .watisipo>div:nth-child(1) {
+        padding: 30px;
+        margin-left: 0%;
+    }
+    .logo h1 {
+        font-size: 30px;
+    }
+    .opleidingen h2 {
+        font-size: 13px;
+    }
+    .title {
+        font-size: 30px;
+    }
+}

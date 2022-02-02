@@ -2,6 +2,21 @@
     .headhome .animationgifclass img {
         width: 400px;
     }
+    .hometext {
+        margin: 23px;
+    }
+    .hometext h1 {
+        font-size: 25px;
+        text-align: left;
+    }
+    .hometext h3 {
+        font-size: 35px;
+        text-align: left;
+    }
+    .hometext p {
+        font-size: 16px;
+        text-align: left;
+    }
     /*info*/
     .info img {
         width: 400px;
@@ -24,6 +39,16 @@
     }
     .info p {
         margin-bottom: 25px;
+        text-align: left;
+    }
+    .last h1 {
+        text-align: left;
+    }
+    .opleidingen h2 {
+        font-size: 16px;
+    }
+    .homephotos {
+        display: block;
     }
 }
 
@@ -73,7 +98,7 @@
     }
     /*animationgifclass*/
     .headhome .animationgifclass img {
-        width: 100%;
+        width: 80%;
     }
     /*waves2*/
     .custom-shape-divider-bottom-1643740696 {

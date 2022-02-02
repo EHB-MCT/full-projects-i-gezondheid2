@@ -1,0 +1,245 @@
+@media (max-width: 1200px) {
+    .headhome .animationgifclass img {
+        width: 400px;
+    }
+    /*info*/
+    .info img {
+        width: 400px;
+        border-radius: 50px;
+    }
+    .infotext {
+        text-align: left;
+        font-size: 15px;
+    }
+    .infotext h1 {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+    .info a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50px;
+        color: #003399;
+        padding: 20px;
+    }
+    .info p {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 800px) {
+    /*NAVBAR*/
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #003399;
+        transition: top 2s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+    }
+    nav .openMenu {
+        display: block;
+        color: #003399;
+    }
+    nav .mainMenu li a {
+        color: white;
+    }
+    nav .mainMenu li a:hover {
+        border-bottom: 5px solid white;
+    }
+    /*headhome*/
+    .headhome {
+        display: flex;
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .hometext h1 {
+        font-size: 25px;
+    }
+    /*animationgifclass*/
+    .headhome .animationgifclass img {
+        width: 100%;
+    }
+    /*waves2*/
+    .custom-shape-divider-bottom-1643740696 {
+        margin-bottom: -7px;
+    }
+    /*waves3*/
+    .custom-shape-divider-top-1643740900 {
+        margin-top: -1px;
+    }
+    /*info*/
+    .info {
+        display: flex;
+        display: block;
+        align-items: center;
+    }
+    .info img {
+        width: 90%;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .infofoto {
+        text-align: center;
+    }
+    .info img {
+        margin-top: 50px;
+    }
+    .infotext {
+        text-align: center;
+        font-size: 15px;
+    }
+    .infotext h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .ordre {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*slider*/
+    /*homephotos*/
+    /*scrollslider*/
+    .homephotos {
+        display: flex;
+        display: block;
+        align-items: center;
+        padding: 50px;
+    }
+    .homephotostext {
+        color: white;
+        text-align: left;
+    }
+    .homephotostext p {
+        margin-bottom: 50px;
+    }
+    .homephotostext h1 {
+        font-size: 40px;
+    }
+    .homephotostext a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50px;
+        color: #E30713;
+        padding: 20px;
+    }
+    .homephotostext a:hover {
+        opacity: 50%;
+    }
+    /* Slideshow container */
+    .slideshow-container img {
+        width: 100%;
+    }
+    /*footer*/
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+    /*footerlogo*/
+    .footer-distributed .logos img {
+        width: 100px;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .last h1 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 500px) {
+    /*nav bar*/
+    nav .mainMenu {
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        border-bottom: 3px solid #003399;
+    }
+    nav .logo img {
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 65px;
+    }
+    /*hometext*/
+    .hometext {
+        margin: 23px;
+    }
+    .hometext h1 {
+        font-size: 25px;
+        text-align: left;
+    }
+    .hometext h3 {
+        font-size: 35px;
+        text-align: left;
+    }
+    .hometext p {
+        margin-bottom: 0;
+        margin-right: 0;
+        font-size: 16px;
+        text-align: left;
+    }
+    .hometext a {
+        padding: 5px;
+    }
+    .hometext a:hover {
+        opacity: 50%;
+    }
+    /*About*/
+    .card {
+        margin: 50px 5px 50px 5px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .info {
+        padding: 25px;
+    }
+    .info p {
+        margin-right: 0;
+        text-align: left;
+    }
+    .info h1 {
+        text-align: left;
+    }
+    .info img {
+        width: 100%;
+    }
+    .opleidingen {
+        grid-template-columns: 1fr;
+        margin-bottom: 225px;
+    }
+    .logo h1 {
+        font-size: 1.5em;
+    }
+}

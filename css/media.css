@@ -237,6 +237,9 @@
     .hometext a:hover {
         opacity: 50%;
     }
+    .homephotostext {
+        padding-right: 0px;
+    }
     /*About*/
     .card {
         margin: 50px 5px 50px 5px;

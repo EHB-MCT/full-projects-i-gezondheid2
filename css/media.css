@@ -194,7 +194,7 @@
     }
 }
 
-@media(max-width: 500px) {
+@media only screen and (max-width:576px) {
     /*nav bar*/
     nav .mainMenu {
         display: none;

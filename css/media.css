@@ -141,10 +141,7 @@
     /*homephotos*/
     /*scrollslider*/
     .homephotos {
-        display: flex;
         display: block;
-        align-items: center;
-        padding: 50px;
     }
     .homephotostext {
         color: white;

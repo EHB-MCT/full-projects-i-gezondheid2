@@ -1,11 +1,23 @@
-function toon() {
-    var hamb = document.getElementById("entiteit");
-    hamb.classList.toggle("active");
+/*navbar*/
+
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+
+openMenu.addEventListener('click', show);
+closeMenu.addEventListener('click', close);
+
+function show() {
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
 }
 
+function close() {
+    mainMenu.style.top = '-100%';
+}
+ 
 
-
-
+/*carousel*/
 var slideIndex = 0;
 showSlides();
 
@@ -18,12 +30,12 @@ function showSlides() {
     }
     slideIndex++;
     if (slideIndex > slides.length) {
-        slideIndex = 1
+        slideIndex = 1;
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 5000); 
 }

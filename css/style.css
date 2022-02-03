@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
+}
+
+body {
     scroll-behavior: smooth;
 }
 
@@ -762,4 +765,98 @@ img {
     to {
         opacity: 1
     }
+}
+
+input[type=text],
+select,
+textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #003399;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #003399;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+form>label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #003399a2;
+}
+
+.formuliercontact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    margin-bottom: 50px;
+}
+
+.formuliercontact>h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.inputcheck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.titlesmall {
+    font-size: 20px;
+    text-align: center;
+}
+
+.CTA {
+    background-color: #003399;
+    padding: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.CTA input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.CTA h3 {
+    text-align: center;
+}
+
+.buttonCTA {
+    width: 10% !important;
+    color: #003399;
+    background-color: rgba(255, 255, 255, 0.274) !important;
+}
+
+.footer-to-home {
+    float: right;
+    color: #003399;
 }

@@ -1,362 +1,386 @@
-@media (max-width: 1200px) {
-    .headhome .animationgifclass img {
-        width: 400px;
+    @media (max-width: 1200px) {
+        .headhome .animationgifclass img {
+            width: 400px;
+        }
+        .hometext {
+            margin: 23px;
+        }
+        .hometext h1 {
+            font-size: 25px;
+            text-align: left;
+        }
+        .hometext h3 {
+            font-size: 35px;
+            text-align: left;
+        }
+        .hometext p {
+            font-size: 16px;
+            text-align: left;
+        }
+        /*info*/
+        .info img {
+            width: 400px;
+            border-radius: 50px;
+        }
+        .infotext {
+            text-align: left;
+            font-size: 15px;
+        }
+        .infotext h1 {
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+        .info a {
+            text-decoration: none;
+            background-color: white;
+            border-radius: 50px;
+            color: #003399;
+            padding: 20px;
+        }
+        .info p {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .last h1 {
+            text-align: left;
+        }
+        .opleidingen h2 {
+            font-size: 16px;
+        }
+        .homephotos {
+            display: block;
+        }
+        .backgroundleerlijn div img {
+            width: 75%;
+            border-radius: 15px;
+        }
+        .backgroundleerlijn div:nth-child(5) {
+            grid-column: 6/9;
+            grid-row: 4/6;
+            margin-left: 10%;
+        }
+        .backgroundleerlijn div:nth-child(6) {
+            grid-column: 1/5;
+            grid-row: 7/9;
+            margin-left: 10%;
+        }
+        .backgroundleerlijn div p {
+            margin-bottom: 0%;
+            margin-top: 2%;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    
+    @media(max-width: 800px) {
+        /*NAVBAR*/
+        nav .mainMenu {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 10;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #003399;
+            transition: top 2s ease;
+            display: none;
+        }
+        nav .mainMenu .closeMenu {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+        }
+        nav .openMenu {
+            display: block;
+            color: #003399;
+        }
+        nav .mainMenu li a {
+            color: white;
+        }
+        nav .mainMenu li a:hover {
+            border-bottom: 5px solid white;
+        }
+        /*headhome*/
+        .headhome {
+            display: flex;
+            display: block;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .hometext h1 {
+            font-size: 25px;
+        }
+        /*animationgifclass*/
+        .headhome .animationgifclass img {
+            width: 80%;
+        }
+        /*waves2*/
+        .custom-shape-divider-bottom-1643740696 {
+            margin-bottom: -7px;
+        }
+        /*waves3*/
+        .custom-shape-divider-top-1643740900 {
+            margin-top: -1px;
+        }
+        /*info*/
+        .info {
+            display: flex;
+            display: block;
+            align-items: center;
+        }
+        .info img {
+            width: 90%;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        .infofoto {
+            text-align: center;
+        }
+        .info img {
+            margin-top: 50px;
+        }
+        .infotext {
+            text-align: center;
+            font-size: 15px;
+        }
+        .infotext h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .ordre {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        /*slider*/
+        /*homephotos*/
+        /*scrollslider*/
+        .homephotos {
+            display: block;
+        }
+        .homephotostext {
+            color: white;
+            text-align: left;
+        }
+        .homephotostext p {
+            margin-bottom: 50px;
+        }
+        .homephotostext h1 {
+            font-size: 40px;
+        }
+        .homephotostext a {
+            text-decoration: none;
+            background-color: white;
+            border-radius: 50px;
+            color: #E30713;
+            padding: 20px;
+        }
+        .homephotostext a:hover {
+            opacity: 50%;
+        }
+        /* Slideshow container */
+        .slideshow-container img {
+            width: 100%;
+        }
+        /*footer*/
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right {
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .footer-distributed .footer-center i {
+            margin-left: 0;
+        }
+        /*footerlogo*/
+        .footer-distributed .logos img {
+            width: 100px;
+        }
+        .text {
+            font-size: 19px;
+        }
+        .last h1 {
+            font-size: 36px;
+        }
+        .backgroundleerlijn {
+            background-image: none;
+            height: 1500px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+        .backgroundleerlijn>div {
+            margin-left: 10%;
+        }
+        .backgroundleerlijn>div:nth-child(1) {
+            grid-column: 1/4;
+            grid-row: 1;
+        }
+        .backgroundleerlijn>div:nth-child(2) {
+            grid-column: 1/4;
+            grid-row: 3;
+        }
+        .backgroundleerlijn>div:nth-child(3) {
+            grid-column: 1/4;
+            grid-row: 5;
+            margin-left: 10%;
+        }
+        .backgroundleerlijn div:nth-child(4) {
+            grid-column: 1/4;
+            grid-row: 4;
+        }
+        .backgroundleerlijn div:nth-child(5) {
+            grid-column: 1/4;
+            grid-row: 2;
+        }
+        .backgroundleerlijn div:nth-child(6) {
+            grid-column: 1/4;
+            grid-row: 6;
+        }
+        .fasetext {
+            font-size: 30px;
+        }
+        .opleidingen img {
+            width: 70%;
+            height: 63%;
+        }
+        .opleidingen h2 {
+            font-size: 13px;
+            margin-left: 15%;
+        }
+        .logo h1 {
+            font-size: 1.5em;
+        }
+        .formuliercontact {
+            width: 70%;
+        }
+        .title {
+            font-size: 32px;
+        }
+        .CTA input {
+            width: 50%;
+        }
+    }
+    
+    @media only screen and (max-width:576px) {
+        /*nav bar*/
+        nav .mainMenu {
+            display: none;
+        }
+        nav .mainMenu .closeMenu {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        nav .openMenu {
+            display: block;
+        }
+        nav .mainMenu li a:hover {
+            border-bottom: 3px solid #003399;
+        }
+        nav .logo img {
+            margin-left: 40px;
+            margin-top: 20px;
+            width: 65px;
+        }
+        /*hometext*/
+        .hometext {
+            margin: 23px;
+        }
+        .hometext h1 {
+            font-size: 25px;
+            text-align: left;
+        }
+        .hometext h3 {
+            font-size: 35px;
+            text-align: left;
+        }
+        .hometext p {
+            margin-bottom: 0;
+            margin-right: 0;
+            font-size: 16px;
+            text-align: left;
+        }
+        .hometext a {
+            padding: 5px;
+        }
+        .hometext a:hover {
+            opacity: 50%;
+        }
+        .homephotostext {
+            padding-right: 0px;
+        }
+        /*About*/
+        .card {
+            margin: 50px 5px 50px 5px;
+        }
+        .card p {
+            font-size: 15px;
+        }
+        .info {
+            padding: 25px;
+        }
+        .info p {
+            margin-right: 0;
+            text-align: left;
+        }
+        .info h1 {
+            text-align: left;
+        }
+        .info img {
+            width: 100%;
+        }
+        .opleidingen h2 {
+            font-size: 14px;
+        }
+        .logo h1 {
+            font-size: 1.5em;
+        }
+        .footer-left a img {
+            width: 12%;
+        }
+        .opleidingen {
+            grid-template-columns: 1fr;
+            grid-gap: 0%;
+        }
+        .opleidingen h2 {
+            font-size: 14px;
+        }
+        .opleidingen>div:nth-child(2) {
+            grid-row: 6;
+        }
+        .opleidingen>div:nth-child(4) {
+            grid-row: 7;
+        }
+        .opleidingen>div:nth-child(6) {
+            grid-row: 8;
+        }
+        .opleidingen>div:nth-child(8) {
+            grid-row: 9;
+        }
+        .opleidingen>div:nth-child(2) {
+            grid-row: 6;
+        }
+        .formuliercontact {
+            width: 70%;
+        }
+        .title {
+            font-size: 32px;
+        }
+        .CTA input {
+            width: 70%;
+        }
+        .buttonCTA {
+            width: 30% !important;
+            color: #003399;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.274) !important;
+        }
     }
-    .hometext {
-        margin: 23px;
-    }
-    .hometext h1 {
-        font-size: 25px;
-        text-align: left;
-    }
-    .hometext h3 {
-        font-size: 35px;
-        text-align: left;
-    }
-    .hometext p {
-        font-size: 16px;
-        text-align: left;
-    }
-    /*info*/
-    .info img {
-        width: 400px;
-        border-radius: 50px;
-    }
-    .infotext {
-        text-align: left;
-        font-size: 15px;
-    }
-    .infotext h1 {
-        font-size: 70px;
-        margin-bottom: 20px;
-    }
-    .info a {
-        text-decoration: none;
-        background-color: white;
-        border-radius: 50px;
-        color: #003399;
-        padding: 20px;
-    }
-    .info p {
-        margin-bottom: 25px;
-        text-align: left;
-    }
-    .last h1 {
-        text-align: left;
-    }
-    .opleidingen h2 {
-        font-size: 16px;
-    }
-    .homephotos {
-        display: block;
-    }
-    .backgroundleerlijn div img {
-        width: 75%;
-        border-radius: 15px;
-    }
-    .backgroundleerlijn div:nth-child(5) {
-        grid-column: 6/9;
-        grid-row: 4/6;
-        margin-left: 10%;
-    }
-    .backgroundleerlijn div:nth-child(6) {
-        grid-column: 1/5;
-        grid-row: 7/9;
-        margin-left: 10%;
-    }
-    .backgroundleerlijn div p {
-        margin-bottom: 0%;
-        margin-top: 2%;
-        font-size: 16px;
-        font-weight: 400;
-    }
-}
-
-@media(max-width: 800px) {
-    /*NAVBAR*/
-    nav .mainMenu {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #003399;
-        transition: top 2s ease;
-        display: none;
-    }
-    nav .mainMenu .closeMenu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        color: white;
-    }
-    nav .openMenu {
-        display: block;
-        color: #003399;
-    }
-    nav .mainMenu li a {
-        color: white;
-    }
-    nav .mainMenu li a:hover {
-        border-bottom: 5px solid white;
-    }
-    /*headhome*/
-    .headhome {
-        display: flex;
-        display: block;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-    .hometext h1 {
-        font-size: 25px;
-    }
-    /*animationgifclass*/
-    .headhome .animationgifclass img {
-        width: 80%;
-    }
-    /*waves2*/
-    .custom-shape-divider-bottom-1643740696 {
-        margin-bottom: -7px;
-    }
-    /*waves3*/
-    .custom-shape-divider-top-1643740900 {
-        margin-top: -1px;
-    }
-    /*info*/
-    .info {
-        display: flex;
-        display: block;
-        align-items: center;
-    }
-    .info img {
-        width: 90%;
-        padding: 10px;
-        border-radius: 50px;
-    }
-    .infofoto {
-        text-align: center;
-    }
-    .info img {
-        margin-top: 50px;
-    }
-    .infotext {
-        text-align: center;
-        font-size: 15px;
-    }
-    .infotext h1 {
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
-    .ordre {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    /*slider*/
-    /*homephotos*/
-    /*scrollslider*/
-    .homephotos {
-        display: block;
-    }
-    .homephotostext {
-        color: white;
-        text-align: left;
-    }
-    .homephotostext p {
-        margin-bottom: 50px;
-    }
-    .homephotostext h1 {
-        font-size: 40px;
-    }
-    .homephotostext a {
-        text-decoration: none;
-        background-color: white;
-        border-radius: 50px;
-        color: #E30713;
-        padding: 20px;
-    }
-    .homephotostext a:hover {
-        opacity: 50%;
-    }
-    /* Slideshow container */
-    .slideshow-container img {
-        width: 100%;
-    }
-    /*footer*/
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .footer-distributed .footer-center i {
-        margin-left: 0;
-    }
-    /*footerlogo*/
-    .footer-distributed .logos img {
-        width: 100px;
-    }
-    .text {
-        font-size: 19px;
-    }
-    .last h1 {
-        font-size: 36px;
-    }
-    .backgroundleerlijn {
-        background-image: none;
-        height: 1500px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-    .backgroundleerlijn>div {
-        margin-left: 10%;
-    }
-    .backgroundleerlijn>div:nth-child(1) {
-        grid-column: 1/4;
-        grid-row: 1;
-    }
-    .backgroundleerlijn>div:nth-child(2) {
-        grid-column: 1/4;
-        grid-row: 3;
-    }
-    .backgroundleerlijn>div:nth-child(3) {
-        grid-column: 1/4;
-        grid-row: 5;
-        margin-left: 10%;
-    }
-    .backgroundleerlijn div:nth-child(4) {
-        grid-column: 1/4;
-        grid-row: 4;
-    }
-    .backgroundleerlijn div:nth-child(5) {
-        grid-column: 1/4;
-        grid-row: 2;
-    }
-    .backgroundleerlijn div:nth-child(6) {
-        grid-column: 1/4;
-        grid-row: 6;
-    }
-    .fasetext {
-        font-size: 30px;
-    }
-    .opleidingen img {
-        width: 70%;
-        height: 63%;
-    }
-    .opleidingen h2 {
-        font-size: 13px;
-        margin-left: 15%;
-    }
-    .logo h1 {
-        font-size: 1.5em;
-    }
-}
-
-@media only screen and (max-width:576px) {
-    /*nav bar*/
-    nav .mainMenu {
-        display: none;
-    }
-    nav .mainMenu .closeMenu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-    nav .openMenu {
-        display: block;
-    }
-    nav .mainMenu li a:hover {
-        border-bottom: 3px solid #003399;
-    }
-    nav .logo img {
-        margin-left: 40px;
-        margin-top: 20px;
-        width: 65px;
-    }
-    /*hometext*/
-    .hometext {
-        margin: 23px;
-    }
-    .hometext h1 {
-        font-size: 25px;
-        text-align: left;
-    }
-    .hometext h3 {
-        font-size: 35px;
-        text-align: left;
-    }
-    .hometext p {
-        margin-bottom: 0;
-        margin-right: 0;
-        font-size: 16px;
-        text-align: left;
-    }
-    .hometext a {
-        padding: 5px;
-    }
-    .hometext a:hover {
-        opacity: 50%;
-    }
-    .homephotostext {
-        padding-right: 0px;
-    }
-    /*About*/
-    .card {
-        margin: 50px 5px 50px 5px;
-    }
-    .card p {
-        font-size: 15px;
-    }
-    .info {
-        padding: 25px;
-    }
-    .info p {
-        margin-right: 0;
-        text-align: left;
-    }
-    .info h1 {
-        text-align: left;
-    }
-    .info img {
-        width: 100%;
-    }
-    .opleidingen h2 {
-        font-size: 14px;
-    }
-    .logo h1 {
-        font-size: 1.5em;
-    }
-    .footer-left a img {
-        width: 12%;
-    }
-    .opleidingen {
-        grid-template-columns: 1fr;
-        grid-gap: 0%;
-    }
-    .opleidingen h2 {
-        font-size: 14px;
-    }
-    .opleidingen>div:nth-child(2) {
-        grid-row: 6;
-    }
-    .opleidingen>div:nth-child(4) {
-        grid-row: 7;
-    }
-    .opleidingen>div:nth-child(6) {
-        grid-row: 8;
-    }
-    .opleidingen>div:nth-child(8) {
-        grid-row: 9;
-    }
-    .opleidingen>div:nth-child(2) {
-        grid-row: 6;
-    }
-}

@@ -13,9 +13,9 @@ function show() {
 }
 
 function close() {
-    mainMenu.style.top = '-100%';
+    mainMenu.style.top = '-120%';
 }
- 
+
 
 /*carousel*/
 var slideIndex = 0;
@@ -37,5 +37,5 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-    setTimeout(showSlides, 5000); 
+    setTimeout(showSlides, 5000);
 }

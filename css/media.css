@@ -214,37 +214,33 @@
         height: 1400px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        padding: 50px;
+    }
+    .backgroundleerlijn div {
+        margin-left: 10%;
     }
     .backgroundleerlijn>div:nth-child(1) {
         grid-column: 1/4;
         grid-row: 1;
-        margin-left: 15%;
     }
     .backgroundleerlijn>div:nth-child(2) {
         grid-column: 1/4;
         grid-row: 3;
-        margin-left: 15%;
     }
     .backgroundleerlijn>div:nth-child(3) {
         grid-column: 1/4;
         grid-row: 5;
-        margin-left: 15%;
     }
     .backgroundleerlijn div:nth-child(4) {
         grid-column: 1/4;
         grid-row: 4;
-        margin-left: 15%;
     }
     .backgroundleerlijn div:nth-child(5) {
         grid-column: 1/4;
         grid-row: 2;
-        margin-left: 15%;
     }
     .backgroundleerlijn div:nth-child(6) {
         grid-column: 1/4;
         grid-row: 6;
-        margin-left: 15%;
     }
 }
 

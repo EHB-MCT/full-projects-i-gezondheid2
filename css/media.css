@@ -211,11 +211,11 @@
     }
     .backgroundleerlijn {
         background-image: none;
-        height: 1400px;
+        height: 1500px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    .backgroundleerlijn div {
+    .backgroundleerlijn>div {
         margin-left: 10%;
     }
     .backgroundleerlijn>div:nth-child(1) {
@@ -229,6 +229,7 @@
     .backgroundleerlijn>div:nth-child(3) {
         grid-column: 1/4;
         grid-row: 5;
+        margin-left: 10%;
     }
     .backgroundleerlijn div:nth-child(4) {
         grid-column: 1/4;
@@ -241,6 +242,20 @@
     .backgroundleerlijn div:nth-child(6) {
         grid-column: 1/4;
         grid-row: 6;
+    }
+    .fasetext {
+        font-size: 30px;
+    }
+    .opleidingen img {
+        width: 70%;
+        height: 63%;
+    }
+    .opleidingen h2 {
+        font-size: 13px;
+        margin-left: 15%;
+    }
+    .logo h1 {
+        font-size: 1.5em;
     }
 }
 
@@ -313,14 +328,35 @@
     .info img {
         width: 100%;
     }
-    .opleidingen {
-        grid-template-columns: 1fr;
-        margin-bottom: 225px;
-    }
     .opleidingen h2 {
         font-size: 14px;
     }
     .logo h1 {
         font-size: 1.5em;
+    }
+    .footer-left a img {
+        width: 12%;
+    }
+    .opleidingen {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+    .opleidingen h2 {
+        font-size: 14px;
+    }
+    .opleidingen>div:nth-child(2) {
+        grid-row: 6;
+    }
+    .opleidingen>div:nth-child(4) {
+        grid-row: 7;
+    }
+    .opleidingen>div:nth-child(6) {
+        grid-row: 8;
+    }
+    .opleidingen>div:nth-child(8) {
+        grid-row: 9;
+    }
+    .opleidingen>div:nth-child(2) {
+        grid-row: 6;
     }
 }

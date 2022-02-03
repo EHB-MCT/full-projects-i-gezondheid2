@@ -6,8 +6,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
-body {
+html {
     scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: scroll;
 }
 
 

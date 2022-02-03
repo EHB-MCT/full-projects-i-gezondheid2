@@ -13,7 +13,7 @@ function show() {
 }
 
 function close() {
-    mainMenu.style.top = '-120%';
+    mainMenu.style.top = '-200vh';
 }
 
 

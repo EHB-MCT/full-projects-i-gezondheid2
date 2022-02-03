@@ -62,9 +62,9 @@ nav .mainMenu .closeMenu,
 }
 
 nav .logo img {
-    margin-left: 95px;
+    margin-left: 105px;
     margin-top: 20px;
-    width: 65px;
+    width: 50px;
     border-radius: 0;
 }
 
@@ -779,6 +779,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    border-radius: 15px;
 }
 
 input[type=submit] {

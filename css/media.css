@@ -211,9 +211,9 @@
         }
         .backgroundleerlijn {
             background-image: none;
-            height: 1500px;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            margin-bottom: 555px;
         }
         .backgroundleerlijn>div {
             margin-left: 10%;
@@ -345,6 +345,12 @@
         }
         .footer-left a img {
             width: 12%;
+        }
+        .backgroundleerlijn {
+            background-image: none;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            margin-bottom: 120px;
         }
         .opleidingen {
             grid-template-columns: 1fr;
